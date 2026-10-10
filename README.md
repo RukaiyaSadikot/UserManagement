@@ -330,8 +330,8 @@ Push the project to GitHub and import it on Netlify or Vercel with these setting
 
 | | |
 |---|---|
-| 🔗 Live Demo | [User Management Website](#) |
-| 🎥 Project Walkthrough | [Project Explanation](#) |
+| 🔗 Live Demo | [User Management Website](https://lighthearted-cendol-56ecfa.netlify.app/) |
+| 🎥 Project Walkthrough | [Project Explanation](https://drive.google.com/file/d/1FVadYASW19N8aM3aJ78zdVjxt4s42MJe/view?usp=sharing) |
 
 ---
 
