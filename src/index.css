@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Public+Sans:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Public Sans", ui-sans-serif,
+    system-ui, sans-serif;
+
+  --color-ink: #14221d;
+  --color-muted: #5b6d65;
+  --color-paper: #eff4ef;
+  --color-card: #fbfdfb;
+  --color-line: #d2dcd4;
+  --color-pine: #1d5b4b;
+  --color-pine-dark: #15443a;
+  --color-mint: #daebe2;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-pine);
+    outline-offset: 2px;
+  }
+
+  label:has(input[type="file"]:focus-visible) {
+    outline: 2px solid var(--color-pine);
+    outline-offset: 2px;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    accent-color: var(--color-pine);
+  }
+}
